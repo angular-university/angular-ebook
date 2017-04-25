@@ -6,7 +6,7 @@
   "scripts": {
     "start": "./node_modules/.bin/http-server -c-1 ."
   },
-  "author": "JhadesDev <jhades.dev@gmail.com> (http://blog.jhades.org/)",
+  "author": "@AngularUniv",
   "license": "MIT",
   "devDependencies": {
     "http-server": "^0.9.0"
