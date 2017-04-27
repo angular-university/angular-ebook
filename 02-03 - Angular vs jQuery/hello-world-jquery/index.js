@@ -1,7 +1,5 @@
 
 
-console.log('Hello world');
-
 
 $.get( "https://final-project-recording.firebaseio.com/lessons.json", function( data ) {
 
