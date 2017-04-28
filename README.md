@@ -5,7 +5,9 @@ Download several chapters of this book and send me your feedback:
 
 [The Step-by-Step Angular Guide](https://angular-university.io/ebook/EBOOK_ANGULAR_GUIDE)
 
-![The Step-by-Step Angular Guide Ebook](https://angular-academy.s3.amazonaws.com/course-logos/angular-3d-cover-v2-small.png)
+<div style="text-align:center">
+    <img src="https://angular-academy.s3.amazonaws.com/course-logos/angular-3d-cover-v2-small.png" alt="The Step-by-Step Angular Guide Ebook">
+</div>
 
 ## This Book In a Nutshell
 Overall the book is meant as step-by-step Guided Introduction to the Angular Ecosystem - The goal is to include both the "How" but most of all including what is often missing - the "Why".
