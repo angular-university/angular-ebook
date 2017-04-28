@@ -9,14 +9,14 @@ Download several chapters of this book and send me your feedback:
     <img src="https://angular-academy.s3.amazonaws.com/course-logos/angular-3d-cover-v2-small.png" alt="The Step-by-Step Angular Guide Ebook">
 </div>
 
-## This Book In a Nutshell
+# This Book In a Nutshell
 Overall the book is meant as step-by-step Guided Introduction to the Angular Ecosystem - The goal is to include both the "How" but most of all including what is often missing - the "Why".
 
 This ebook is just getting started, I would love to hear your feedback on what you would like it to include. Its freely available for download, please send me your feedback at admin@angular-university.io
 
 Versions used: The code repository of this ebook uses the Angular 4 release, Typescript 2.2 and optionally the Yarn Package manager.
 
-## Why a Step-By-Step Guide for Angular ?
+# Why a Step-By-Step Guide for Angular ?
 For anyone coming from a Javascript background even in other similar frameworks, from server-side environments like C# or Java, and even from a more traditionally frontend oriented environment like Ruby or Python, the Angular ecosystem at first sight might look completely different.
 
 The goal of this ebook is for you to learn the Angular framework from the point of view of an Application Developer coming from another ecosystem. Why should we use the Angular framework and in which way does it help you build better and more feature-rich applications ? Why Angular ? We are going to take an innovative approach for learning the Angular platform: we are going to present the features of the framework of course, but our main points of focus will be:
@@ -28,7 +28,7 @@ The goal of this ebook is for you to learn the Angular framework from the point 
 - Is a given feature commonly used in day to day application development, or is it meant mostly for third party library development ?
 - We will give some practical and easy to understand explanations about to the multiple concepts around Angular, Typescript and Single Page Applications in general. The goal is to give you a high-density of those Haha moments, that are really what learning is all about. So in a Nutshell, let’s summarize the content of this book:
 
-## Table Of Contents
+# Table Of Contents
 
 - We are going to start by giving you a convincing explanation on how single page applications work, and why would you want to build an application that way
 
