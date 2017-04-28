@@ -1,5 +1,11 @@
 # The Step-by-Step Angular Guide
-This ebook is in early stages of production and its currently free (currently 48 pages) - download the first few chapters and send me feedback
+This ebook is currently under production, the first few chapters are available for download for free. This is the code repository that will be used in the book.
+
+Download several chapters of this book and send me your feedback:
+
+[The Step-by-Step Angular Guide](https://angular-university.io/ebook/EBOOK_ANGULAR_GUIDE)
+
+![The Step-by-Step Angular Guide Ebook](https://angular-academy.s3.amazonaws.com/course-logos/angular-3d-cover-v2-small.png)
 
 ## This Book In a Nutshell
 Overall the book is meant as step-by-step Guided Introduction to the Angular Ecosystem - The goal is to include both the "How" but most of all including what is often missing - the "Why".
