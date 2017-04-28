@@ -26,7 +26,7 @@ The goal of this ebook is for you to learn the Angular framework from the point 
 - When should we use each feature and why ?
 - How much do I need to know about the internals of Angular in order to be proficient using it ?
 - Is a given feature commonly used in day to day application development, or is it meant mostly for third party library development ?
-- We will give some practical and easy to understand explanations about to the multiple concepts around Angular, Typescript and Single Page Applications in general. The goal is to give you a high-density of those Haha moments, that are really what learning is all about. So in a Nutshell, let’s summarize the content of this book:
+- We will give some practical and easy to understand explanations about to the multiple concepts around Angular, Typescript and Single Page Applications in general. The goal is to give you a high-density of those Haha moments, that are really what learning is all about. So in a Nutshell, let’s summarize the content of this guide:
 
 # Table Of Contents
 
@@ -41,7 +41,7 @@ The goal of this ebook is for you to learn the Angular framework from the point 
 
 I hope this gives you a better idea of the goal of this book will be : more than covering a feature or concept, the goal of the book is to help understand not only the concept / feature, but also what are the common use cases, when should we use it and why, and what are the advantages.
 
-# How to get this Ebook ?
+# How to get this Guide ?
 By signing up for free to the Angular University, you can download the ebook and get also access to the [Angular For Beginners Video Course 2+ Hours](https://angular-university.io/course/getting-started-with-angular2).
 
 
