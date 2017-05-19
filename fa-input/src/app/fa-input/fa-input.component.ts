@@ -1,43 +1,39 @@
-import {Component, EventEmitter, Input, Output} from '@angular/core';
+import {Component, EventEmitter, HostBinding, Input, Output} from '@angular/core';
 
 @Component({
   selector: 'fa-input',
   template: `
 
     <i class="fa" [ngClass]="classes"></i>
-    
-    <input (keyup)="value.emit(input.value)" #input>
-    
+
+    <input (focus)="inputFocus = true" (blur)="inputFocus = false"
+           (keyup)="value.emit(input.value)" #input>
+
   `,
-  styles: [`
-  
-    :host {
-      border: 1px solid grey;
-    }
-    
-    input {
-      border:none;
-      outline: none;
-    }
-  
-  `]
+  styleUrls: ['./fa-input.component.css']
 })
-export class FaInputComponent  {
+export class FaInputComponent {
 
-  @Input()
-  icon:string;
+  @Input() icon: string;
 
-  @Output()
-  value = new EventEmitter<string>();
+  @Output() value = new EventEmitter<string>();
+
+  inputFocus = false;
 
   get classes() {
     const cssClasses = {
-      fa:true
+      fa: true
     };
 
     cssClasses['fa-' + this.icon] = true;
 
     return cssClasses;
+  }
+
+  @HostBinding('class.focus')
+  get focus() {
+    console.log(this.inputFocus);
+    return this.inputFocus;
   }
 
 }

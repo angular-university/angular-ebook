@@ -7,13 +7,14 @@ import { Component } from '@angular/core';
     <h1>FA Input</h1>
 
     <fa-input icon="envelope" (value)="onNewValue($event)"></fa-input>
-
-
-    <fa-input icon="lock"></fa-input>  
-  
-  `,
-  styleUrls: ['./app.component.css']
+    
+    <fa-input icon="lock" (value)="onNewValue($event)"></fa-input>
+  `
 })
 export class AppComponent {
-  title = 'app works!';
+
+  onNewValue(val) {
+    console.log(val);
+  }
+
 }
