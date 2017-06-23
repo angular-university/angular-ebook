@@ -1,8 +1,10 @@
+
+
 :host {
   border: 1px solid grey;
 }
 
-input {
+:host /deep/ input {
   border: none;
   outline: none;
 }
@@ -10,3 +12,5 @@ input {
 :host(.focus) {
   border: 1px solid blue;
 }
+
+

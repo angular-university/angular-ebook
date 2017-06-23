@@ -1,4 +1,5 @@
-import {Component, EventEmitter, HostBinding, Input, Output} from '@angular/core';
+import {Component, ContentChild, EventEmitter, HostBinding, Input, Output} from '@angular/core';
+import {InputRefDirective} from "./input-ref.directive";
 
 @Component({
   selector: 'fa-input',
@@ -6,8 +7,7 @@ import {Component, EventEmitter, HostBinding, Input, Output} from '@angular/core
 
     <i class="fa" [ngClass]="classes"></i>
 
-    <input (focus)="inputFocus = true" (blur)="inputFocus = false"
-           (keyup)="value.emit(input.value)" #input>
+    <ng-content></ng-content>
 
   `,
   styleUrls: ['./fa-input.component.css']
@@ -16,9 +16,14 @@ export class FaInputComponent {
 
   @Input() icon: string;
 
-  @Output() value = new EventEmitter<string>();
+  @ContentChild(InputRefDirective)
+  input: InputRefDirective;
 
-  inputFocus = false;
+
+  @HostBinding("class.focus")
+  get focus() {
+    return this.input ? this.input.focus : false;
+  }
 
   get classes() {
     const cssClasses = {
@@ -28,12 +33,6 @@ export class FaInputComponent {
     cssClasses['fa-' + this.icon] = true;
 
     return cssClasses;
-  }
-
-  @HostBinding('class.focus')
-  get focus() {
-    console.log(this.inputFocus);
-    return this.inputFocus;
   }
 
 }
