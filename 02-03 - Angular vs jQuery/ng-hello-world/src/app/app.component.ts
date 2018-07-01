@@ -1,5 +1,6 @@
 import {Component, OnInit} from '@angular/core';
 import {Http} from "@angular/http";
+import { map } from 'rxjs/operators';
 
 @Component({
   selector: 'app-root',
@@ -14,7 +15,7 @@ export class AppComponent implements OnInit {
 
   ngOnInit() {
     this.http.get('https://final-project-recording.firebaseio.com/lessons.json')
-      .map(res => Object.values(res.json()))
+      .pipe(map(res => Object.values(res.json())))
       .subscribe(lessons => this.lessons = lessons);
   }
 
